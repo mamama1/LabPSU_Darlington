@@ -3,7 +3,7 @@
 Welcome to my Lab PSU project, which is based on a pair of BD139/TIP3055 Darlingtons and the Teensy 3.5 (3.6 should work as well).
 
 Specs:
-0 - 20.48V output controllable in 5mV steps
+0 - 20.48V output controllable in 5mV steps<br>
 0 - 4096 mA output controllable in 1mA steps
 Around 0.1% accuracy due to high accuracy components
 12 Bit DAC
