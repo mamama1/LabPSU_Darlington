@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16132,6 +16132,11 @@ SLN2TTEDR100D (2W)</text>
 <pinref part="IC5" gate="A" pin="+IN"/>
 <wire x1="96.52" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <label x="86.36" y="96.52" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="B" pin="+IN"/>
+<wire x1="96.52" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
+<label x="86.36" y="121.92" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$40" class="0">
