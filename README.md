@@ -6,7 +6,7 @@ Specs:<br>
 0 - 12.288V output controllable in 3mV steps<br>
 0 - 4096 mA output controllable in 1mA steps<br>
 Around 0.1% accuracy due to high accuracy components<br>
-12 Bit DAC (Teensy integrated)<br>
+12 Bit DAC (MCP4922)<br>
 12 Bit ADC (Teensy integrated, 2.048V high precision external voltage reference)<br>
 Low Ripple, Low Noise<br>
 Separate linear, software-adjustable voltage regulator for fan speed control to avoid high frequency switching noise (PWM)<br>
