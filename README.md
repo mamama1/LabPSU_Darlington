@@ -13,4 +13,4 @@ Separate linear, software-adjustable voltage regulator for fan speed control to 
 One Board solution (toroidal transformer not onboard)<br>
 Optional Front Panel for Display, rotary encoder, button and LED mounting<br>
 Fast UI thanks to Teensy's 120 MHz frequency<br>
-Header for Wiznet W5500 Ethernet module (SPI interface header, basically, plus some I/O pins)
+Header for ESP8266, ESP32 or basically any other UART compatible device, including 3.3V and GND as well as two I/O pins (one PWM capable)
