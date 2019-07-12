@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.079375" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.15875" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -166,7 +166,7 @@
 <wire x1="4" y1="0" x2="137" y2="0" width="0" layer="20"/>
 <wire x1="141" y1="4" x2="141" y2="105.94375" width="0" layer="20"/>
 <wire x1="137" y1="109.94375" x2="4" y2="109.94375" width="0" layer="20"/>
-<text x="171.7975" y="110.2675" size="1.778" layer="25">+</text>
+<text x="143.2225" y="103.838125" size="1.778" layer="25">+</text>
 <text x="39.2897125" y="1.509378125" size="0.8128" layer="25" font="vector">V_SEL:
 1-2: Flash mode
 2-3: Normal operation</text>
@@ -174,7 +174,7 @@
 18V - 24V</text>
 <text x="94.87125" y="5.9586125" size="0.8128" layer="25" font="vector">Netzteil_Darlington_v2
 Rev 1.9</text>
-<text x="111.61" y="14.8675" size="0.8128" layer="25">+</text>
+<text x="111.61" y="10.89875" size="0.8128" layer="25">+</text>
 <polygon width="0.3048" layer="29">
 <vertex x="57.705625" y="97.393125"/>
 <vertex x="57.705625" y="87.9475"/>
@@ -211,29 +211,29 @@ Rev 1.9</text>
 </polygon>
 <text x="81.050625" y="12.248125" size="0.8128" layer="25">CS RST MOSI SCK DC  3.3  VSS</text>
 <text x="52.793125" y="89.718125" size="0.8128" layer="25">R5</text>
-<text x="114.30875" y="14.94875" size="0.8128" layer="25">-</text>
-<text x="105.5775" y="14.8675" size="0.8128" layer="25">PWM</text>
+<text x="114.30875" y="10.98" size="0.8128" layer="25">-</text>
+<text x="105.5775" y="10.89875" size="0.8128" layer="25">PWM</text>
 <text x="94.87125" y="4.86625" size="0.8128" layer="25">azzurro@ne-mail.net</text>
 <wire x1="0" y1="105.94375" x2="0" y2="4" width="0" layer="20"/>
 <wire x1="137" y1="109.94375" x2="141" y2="105.94375" width="0" layer="20" curve="-90"/>
 <wire x1="141" y1="4" x2="137" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="4" y1="0" x2="0" y2="4" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="105.94375" x2="4" y2="109.94375" width="0" layer="20" curve="-90"/>
-<text x="50.8" y="45.87875" size="0.8128" layer="25">BTN</text>
-<text x="54.13375" y="45.87875" size="0.8128" layer="25">B</text>
-<text x="56.67375" y="45.87875" size="0.8128" layer="25">A</text>
-<text x="68.10375" y="45.87875" size="0.8128" layer="25">I_DWN</text>
-<text x="72.54875" y="45.87875" size="0.8128" layer="25">I_UP</text>
+<text x="47.14875" y="43.33875" size="0.8128" layer="25">BTN</text>
+<text x="54.13375" y="47.3075" size="0.8128" layer="25">B</text>
+<text x="59.53125" y="43.33875" size="0.8128" layer="25">A</text>
+<text x="69.5325" y="47.625" size="0.8128" layer="25">B1</text>
+<text x="73.81875" y="47.625" size="0.8128" layer="25">B2</text>
 <text x="110.01375" y="20.32" size="0.8128" layer="25" rot="R90">TX</text>
 <text x="110.01375" y="22.86" size="0.8128" layer="25" rot="R90">RX</text>
 <text x="110.01375" y="25.0825" size="0.8128" layer="25" rot="R90">RST</text>
 <text x="110.01375" y="27.6225" size="0.8128" layer="25" rot="R90">3.3V</text>
 <text x="110.01375" y="30.63875" size="0.8128" layer="25" rot="R90">IO</text>
-<text x="110.01375" y="35.71875" size="0.8128" layer="25" rot="R90">B1</text>
-<text x="110.01375" y="38.25875" size="0.8128" layer="25" rot="R90">B2</text>
-<text x="70.64375" y="21.59" size="0.8128" layer="25">R G B</text>
-<text x="55.40375" y="14.12875" size="0.8128" layer="25">LED 1</text>
-<text x="59.53125" y="16.51" size="0.8128" layer="25">LED 2</text>
+<text x="110.01375" y="35.71875" size="0.8128" layer="25" rot="R90">B4</text>
+<text x="110.01375" y="38.25875" size="0.8128" layer="25" rot="R90">B3</text>
+<text x="63.34125" y="15.5575" size="0.8128" layer="25">R G B</text>
+<text x="56.1975" y="15.5575" size="0.8128" layer="25">LED 1</text>
+<text x="59.69" y="15.5575" size="0.8128" layer="25">LED 2</text>
 <polygon width="0.3048" layer="29">
 <vertex x="120.3325" y="78.74"/>
 <vertex x="126.0475" y="78.74"/>
@@ -1079,33 +1079,10 @@ Bauform: 0805&lt;br&gt;</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
-<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="1">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="1">
 <description>JUMPER</description>
-</package3d>
-<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="1">
-<description>Solder jumper</description>
 </package3d>
 </packages3d>
 </library>
@@ -2899,7 +2876,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="21.3346" y="102.97375" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C15" library="goujine" package="C+/3.5/8" value="100µ/50V" x="100.499478125" y="63.223878125" smashed="yes" rot="R90">
-<attribute name="NAME" x="98.30284375" y="66.0287875" size="0.8128" layer="25" rot="R225"/>
+<attribute name="NAME" x="97.50909375" y="67.4575375" size="0.8128" layer="25" rot="R225"/>
 <attribute name="OC_MOUSER" value="667-EEU-FR1H101" x="100.499478125" y="63.223878125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="101.610675" y="67.986375" size="1.016" layer="27" rot="R90"/>
 </element>
@@ -2909,12 +2886,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="21.3346" y="77.25625" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C22" library="goujine" package="0805" value="100n/35V" x="62.07125" y="66.99245" smashed="yes" rot="R90">
-<attribute name="NAME" x="61.991925" y="70.1687" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="63.420575" y="68.73755" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="62.07125" y="66.99245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.18255" y="69.21495" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C38" library="goujine" package="0805" value="100n/16V" x="71.120628125" y="15.3371625" smashed="yes">
-<attribute name="NAME" x="70.485628125" y="16.4484625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="71.914378125" y="16.4484625" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="71.120628125" y="15.3371625" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="73.343128125" y="14.2258625" size="1.016" layer="27"/>
 </element>
@@ -2924,27 +2901,27 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.0859125" y="8.985053125" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="goujine" package="0805" value="10n/50V" x="77.94625" y="61.27755" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.135575" y="63.0238" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="77.3113" y="63.151925" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="80-C0805C103K1R" x="77.94625" y="61.27755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="79.05755" y="63.50005" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C42" library="goujine" package="0805" value="330n/50V" x="43.02125" y="62.5475" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.13255" y="63.34125" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="42.0687" y="61.43625" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="80-C0805C334K5RECTU" x="43.02125" y="62.5475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="41.90995" y="60.325" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C43" library="goujine" package="0805" value="100n/35V" x="52.86375" y="62.5475" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.5463" y="60.563125" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="50.085625" y="59.8488" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="52.86375" y="62.5475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.75245" y="60.325" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C48" library="goujine" package="0805" value="100n/16V" x="83.50245" y="57.9438" smashed="yes" rot="R180">
-<attribute name="NAME" x="84.057328125" y="58.818871875" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="82.472621875" y="58.817671875" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="83.50245" y="57.9438" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="81.27995" y="59.0551" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C49" library="goujine" package="1206" value="10µ/16V" x="104.3075" y="74.16125" smashed="yes" rot="R270">
-<attribute name="NAME" x="102.64005" y="72.1763" size="0.8128" layer="25"/>
+<attribute name="NAME" x="107.68745" y="73.11255" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="963-TMK316AB7106KL-T" x="104.3075" y="74.16125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="103.1962" y="73.04995" size="1.016" layer="27" rot="R270"/>
 </element>
@@ -2973,22 +2950,22 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="132.426378125" y="43.147196875" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="D1" library="neumluc" package="SOT23" value="BAT54FILMY" x="83.5025" y="62.38875" smashed="yes">
-<attribute name="NAME" x="82.8675" y="61.91255" size="0.8128" layer="25"/>
+<attribute name="NAME" x="84.29625" y="63.18255" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="511-BAT54FILMY" x="83.5025" y="62.38875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="85.4075" y="61.27745" size="1.016" layer="27"/>
 </element>
 <element name="D14" library="neumluc" package="DO214AA-CGRB307-G" value="CGRB307-G" x="111.927140625" y="66.0631375" smashed="yes" rot="R270">
-<attribute name="NAME" x="113.530640625" y="68.2268875" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="114.1768625" y="63.683140625" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="750-CGRB307-G" x="111.927140625" y="66.0631375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="109.371140625" y="68.7031375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D2" library="neumluc" package="SOT23" value="BAT54FILMY" x="84.9313" y="70.96125" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.25" y="72.86625" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="84.1375" y="68.57875" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="511-BAT54FILMY" x="84.9313" y="70.96125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="83.82" y="69.05625" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="D8" library="neumluc" package="DO214AA-CGRB307-G" value="CGRB307-G" x="126.663471875" y="24.4581625" smashed="yes" rot="R180">
-<attribute name="NAME" x="129.303471875" y="23.0221625" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="124.379028125" y="21.4278375" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="750-CGRB307-G" x="126.663471875" y="24.4581625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="129.303471875" y="27.1641625" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -3004,7 +2981,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="67.3084625" y="4.222503125" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="IC17" library="linear" package="TO220V" value="7818TV" x="47.78375" y="65.24625" smashed="yes">
-<attribute name="NAME" x="41.43375" y="65.55105" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="41.91" y="65.3923" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="511-L7818CV-DG" x="47.78375" y="65.24625" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="42.70375" y="57.62625" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -3019,7 +2996,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="86.8838" y="23.64875" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R16" library="neumluc" package="C0805K" value="22R 5% 1/10W" x="90.3288" y="21.43125" smashed="yes">
-<attribute name="NAME" x="86.391925" y="20.956875" size="0.8128" layer="25"/>
+<attribute name="NAME" x="92.265675" y="21.115625" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="652-CR0805JW-220ELF" x="90.3288" y="21.43125" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="89.3288" y="19.21375" size="1.27" layer="27"/>
 </element>
@@ -3029,7 +3006,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="73.8663" y="66.35255" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="neumluc" package="C0805K" value="30k 0.1% 10ppm" x="73.81875" y="61.27755" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.58125" y="59.358175" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="73.198075" y="58.65875" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="667-ERA-6ARW303V" x="73.81875" y="61.27755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="76.03625" y="60.27755" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3039,7 +3016,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="88.57755" y="57.89625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R32" library="neumluc" package="C0805K" value="10.1k 0.1% 10ppm 1/10W" x="88.4238" y="58.8963" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.34255" y="60.7538" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="90.0888" y="59.00755" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="660-RN732ATTD1012B25" x="88.4238" y="58.8963" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.2063" y="59.8963" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3052,13 +3029,13 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="104.3075" y="77.01875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="106.8475" y="80.19375" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R42" library="neumluc" package="C0805K" value="65k 1% 1/10W" x="101.7125" y="72.1525" smashed="yes">
-<attribute name="NAME" x="100.79125" y="73.265" size="0.8128" layer="25"/>
-<attribute name="OC_MOUSER" value="652-CR0805FX-3903ELF" x="101.7125" y="72.1525" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.7125" y="69.935" size="1.27" layer="27"/>
+<element name="R42" library="neumluc" package="C0805K" value="64.9k 1% 1/10W" x="102.79" y="71.2325" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.69375" y="70.31125" size="0.8128" layer="25" rot="R90"/>
+<attribute name="OC_MOUSER" value="652-CR0805FX-6492ELF" x="102.79" y="71.2325" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="105.0075" y="70.2325" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R48" library="neumluc" package="C0805K" value="10k 5% 1/10W" x="118.36519375" y="22.822584375" smashed="yes" rot="R270">
-<attribute name="NAME" x="116.38269375" y="23.822584375" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="118.12894375" y="20.647584375" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="652-CR0805-JW-103ELF" x="118.36519375" y="22.822584375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="116.14769375" y="23.822584375" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3068,7 +3045,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="64.981365625" y="74.679696875" size="1.27" layer="27" rot="R135"/>
 </element>
 <element name="R8" library="neumluc" package="C0805K" value="47k 1% 1/10W" x="75.88255" y="61.27755" smashed="yes" rot="R90">
-<attribute name="NAME" x="76.2288" y="63.13505" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="75.0413" y="58.7087" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="652-CR0805FX-4702ELF" x="75.88255" y="61.27755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="78.10005" y="60.27755" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3078,17 +3055,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="69.6962" y="69.2625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="REL1" library="goujine" package="REL-G2R2" value="G2R-2-DC12" x="124.17875625" y="41.234784375" smashed="yes" rot="R90">
-<attribute name="NAME" x="131.79875625" y="43.457284375" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="131.79875625" y="26.629784375" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="653-G2R-2-DC12" x="124.17875625" y="41.234784375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="125.13125625" y="31.074784375" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="T3" library="neumluc" package="TO126" value="BD139" x="81.915" y="66.5163" smashed="yes">
-<attribute name="NAME" x="80.80375" y="63.3413" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="81.12125" y="68.7388" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="511-BD139-10" x="81.915" y="66.5163" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="86.36" y="65.2463" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="T5" library="neumluc" package="TOP3AV" value="TIP3055" x="78.9075" y="79.55875" smashed="yes">
-<attribute name="NAME" x="71.2875" y="72.70075" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="71.44625" y="73.177" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="863-TIP3055G" x="78.9075" y="79.55875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="77.3835" y="72.70075" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -3117,7 +3094,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="114.8485" y="72.70075" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="D3" library="neumluc" package="SOT23" value="BAT54FILMY" x="117.16625" y="67.255625" smashed="yes" rot="R180">
-<attribute name="NAME" x="115.26125" y="67.573075" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="117.9425" y="65.459425" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="511-BAT54FILMY" x="117.16625" y="67.255625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="115.26125" y="68.366925" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -3132,32 +3109,32 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="118.2286625" y="72.211484375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R21" library="neumluc" package="SLN2" value="0R1 0.5% 7W" x="90.655" y="70.66875" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.21" y="74.44375" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="95.21" y="67.6175" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="66-SLN5TTED82L0D" x="90.655" y="70.66875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="95.625" y="64.91875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R22" library="neumluc" package="C0805K" value="10.1k 0.1% 10ppm 1/10W" x="57.15005" y="65.0875" smashed="yes">
-<attribute name="NAME" x="59.086925" y="64.21625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="53.054425" y="65.80375" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="660-RN732ATTD1012B25" x="57.15005" y="65.0875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="56.15005" y="62.87" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="goujine" package="0805" value="100n/16V" x="57.15" y="63.18255" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.134375" y="62.8651" size="0.8128" layer="25"/>
+<attribute name="NAME" x="59.6899" y="62.468125" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="57.15" y="63.18255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.9275" y="64.29385" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="R23" library="neumluc" package="C0805K" value="90.9k 0.1% 10ppm 1/10W" x="59.21375" y="66.99255" smashed="yes">
-<attribute name="NAME" x="58.3725" y="65.089425" size="0.8128" layer="25"/>
+<attribute name="NAME" x="58.21375" y="68.105675" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="279-RN73CA-90.9K" x="59.21375" y="66.99255" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.21375" y="64.77505" size="1.27" layer="27"/>
 </element>
 <element name="C6" library="goujine" package="0805" value="22pF/35V C0G" x="71.9138" y="61.27755" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.786975" y="61.991925" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="71.199325" y="58.658225" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="603-CC805JRNPO9BN220 " x="71.9138" y="61.27755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="70.8025" y="59.05505" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C13" library="goujine" package="0805" value="100n opt/50V" x="102.5525" y="56.515" smashed="yes" rot="R270">
-<attribute name="NAME" x="101.9175" y="58.42005" size="0.8128" layer="25"/>
+<attribute name="NAME" x="103.9812" y="52.705" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="102.5525" y="56.515" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="101.4412" y="54.2925" size="1.016" layer="27" rot="R270"/>
 </element>
@@ -3167,18 +3144,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="67.15995" y="74.955" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="R24" library="neumluc" package="C0805K" value="1k 1% 1/10W" x="80.01005" y="61.27755" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.3563" y="62.9763" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="81.78505" y="60.4363" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="652-CR0805FX-1001ELF" x="80.01005" y="61.27755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="82.22755" y="60.27755" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="I_PROT" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="76.20005" y="66.9925" smashed="yes">
-<attribute name="NAME" x="78.8353" y="65.0875" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="75.08875" y="69.7547" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="79.12105" y="64.4525" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="SG1" library="neumluc" package="254-EMB73-RO" value="BUZZER" x="51.155396875" y="19.19568125" smashed="yes">
 <attribute name="MF" value="" x="51.155396875" y="19.19568125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="51.155396875" y="19.19568125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.95056875" y="15.470396875" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="49.80806875" y="14.676646875" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="51.155396875" y="19.19568125" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="254-EMB73-RO" x="51.155396875" y="19.19568125" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="51.155396875" y="19.19568125" size="1.778" layer="27" display="off"/>
@@ -3201,7 +3178,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="58.063128125" y="27.5746625" size="1.27" layer="27"/>
 </element>
 <element name="D6" library="neumluc" package="DO214AA-CGRB307-G" value="CGRB307-G" x="106.133890625" y="55.339246875" smashed="yes" rot="R270">
-<attribute name="NAME" x="105.673640625" y="60.360496875" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="105.533253125" y="50.587390625" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="750-CGRB307-G" x="106.133890625" y="55.339246875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="103.577890625" y="57.979246875" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3239,12 +3216,8 @@ design rules under a new name.</description>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="47.31625" y="33.44125" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="49.53875" y="32.32995" size="1.016" layer="27"/>
 </element>
-<element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="97.16375" y="93.76625" smashed="yes">
-<attribute name="NAME" x="95.51275" y="94.90925" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="97.56385" y="93.76625" size="0.02" layer="27"/>
-</element>
 <element name="T2" library="neumluc" package="SOT23-BEC" value="BC847ALT1G" x="86.83625" y="49.37125" smashed="yes" rot="R180">
-<attribute name="NAME" x="88.9" y="48.4187" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="87.47125" y="47.62505" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="863-BC847ALT1G" x="86.83625" y="49.37125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="84.93125" y="50.48255" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -3253,34 +3226,34 @@ design rules under a new name.</description>
 <attribute name="OC_MOUSER" value="652-CR0805FX-4701ELF" x="90.64625" y="50.00625" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="89.64625" y="47.78875" size="1.27" layer="27"/>
 </element>
-<element name="R37" library="neumluc" package="C0805K" value="2.2k 5% 1/8W" x="90.64625" y="47.9425" smashed="yes">
-<attribute name="NAME" x="93.255" y="46.93375" size="0.8128" layer="25" rot="R90"/>
-<attribute name="OC_MOUSER" value="652-CR0805JW-101ELF" x="90.64625" y="47.9425" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="89.64625" y="45.725" size="1.27" layer="27"/>
+<element name="R37" library="neumluc" package="C0805K" value="2.2k 5% 1/10W" x="90.96375" y="47.9425" smashed="yes">
+<attribute name="NAME" x="93.5725" y="46.93375" size="0.8128" layer="25" rot="R90"/>
+<attribute name="OC_MOUSER" value="652-CR0805FX-2201ELF" x="90.96375" y="47.9425" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.96375" y="45.725" size="1.27" layer="27"/>
 </element>
 <element name="C47" library="goujine" package="0805" value="10n/16V" x="94.93255" y="49.05375" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.82125" y="48.41875" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="93.98" y="50.8" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="80-C0805C103K1R" x="94.93255" y="49.05375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="96.04385" y="51.27625" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="T11" library="neumluc" package="SOT23-BEC" value="BC847ALT1G" x="61.59495" y="63.18255" smashed="yes">
-<attribute name="NAME" x="59.99875" y="65.969425" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="61.189325" y="60.31625" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="863-BC847ALT1G" x="61.59495" y="63.18255" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="63.49995" y="62.07125" size="1.016" layer="27"/>
 </element>
 <element name="R40" library="neumluc" package="C0805K" value="4.7k 5% 1/10W" x="58.10255" y="61.2775" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.2138" y="60.24375" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="54.215" y="62.1188" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="652-CR0805FX-4701ELF" x="58.10255" y="61.2775" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.10255" y="63.495" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C51" library="goujine" package="0805" value="10n/16V" x="61.4363" y="58.41995" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.928225" y="59.610575" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="62.944275" y="56.594425" size="0.6096" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="80-C0805C103K1R" x="61.4363" y="58.41995" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.325" y="56.19745" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="R41" library="neumluc" package="C0805K" value="100R 5% 1/10W" x="64.6113" y="58.73755" smashed="yes" rot="R180">
+<element name="R41" library="neumluc" package="C0805K" value="2.2k 5% 1/10W" x="64.6113" y="58.73755" smashed="yes" rot="R180">
 <attribute name="NAME" x="66.3438" y="59.563175" size="0.6096" layer="25" rot="R270"/>
-<attribute name="OC_MOUSER" value="652-CR0805JW-101ELF" x="64.6113" y="58.73755" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_MOUSER" value="652-CR0805FX-2201ELF" x="64.6113" y="58.73755" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="65.6113" y="60.95505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C52" library="goujine" package="0805" value="22p opt/35V C0G" x="61.2775" y="72.39005" smashed="yes" rot="R135">
@@ -3371,7 +3344,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="53.0225" y="6.295" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="C20" library="goujine" package="1206" value="10µ/16V" x="50.8" y="10.978125" smashed="yes" rot="R180">
-<attribute name="NAME" x="49.133125" y="10.105" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="49.133125" y="12.16875" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_MOUSER" value="963-TMK316AB7106KL-T" x="50.8" y="10.978125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.5775" y="10.978125" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
@@ -3401,7 +3374,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="122.2375" y="5.81875" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="L1" library="neumluc" package="C0805K" value="MPZ2012S601AT000" x="54.2925" y="13.915" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.58375" y="16.145" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="54.90125" y="15.98625" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="810-MPZ2012S601AT000" x="54.2925" y="13.915" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="56.51" y="12.915" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3411,19 +3384,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="127.47125" y="15.61375" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="IC19" library="neumluc" package="MSOP10" value="ADS1115" x="96.52005" y="45.085" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.7738" y="43.4975" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="95.24995" y="42.545" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="595-ADS1115IDGSR" x="96.52005" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="IC-12270" x="96.52005" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="96.52005" y="47.625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="IC18" library="neumluc" package="MSOP10" value="ADS1115" x="57.3088" y="58.5788" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.269425" y="56.808175" size="0.8128" layer="25" ratio="20" rot="R270"/>
+<attribute name="NAME" x="54.793075" y="56.063175" size="0.8128" layer="25" ratio="20"/>
 <attribute name="OC_MOUSER" value="595-ADS1115IDGSR" x="57.3088" y="58.5788" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="IC-12270" x="57.3088" y="58.5788" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="57.3088" y="61.1188" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="R4" library="neumluc" package="C0805K" value="10k 5% 1/10W" x="61.49125" y="42.941875" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.9375" y="46.164375" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="60.833125" y="44.90375" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="652-CR0805-JW-103ELF" x="61.49125" y="42.941875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="59.27375" y="43.941875" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3433,27 +3406,27 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.7725" y="42.97375" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="L6" library="neumluc" package="C0805K" value="MPZ2012S601AT000" x="88.7412" y="44.29125" smashed="yes" rot="R270">
-<attribute name="NAME" x="88.3462" y="47.355" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="88.05875" y="41.6737" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-MPZ2012S601AT000" x="88.7412" y="44.29125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.5237" y="45.29125" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L8" library="neumluc" package="C0805K" value="MPZ2012S601AT000" x="53.0225" y="55.56255" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.338125" y="57.340675" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="54.608125" y="55.118175" size="0.6096" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="810-MPZ2012S601AT000" x="53.0225" y="55.56255" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="50.805" y="56.56255" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C10" library="goujine" package="0805" value="100n/16V" x="90.805" y="44.6087" smashed="yes" rot="R270">
-<attribute name="NAME" x="89.0588" y="45.71995" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="90.0113" y="41.91005" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="90.805" y="44.6087" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="89.6937" y="42.3862" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C14" library="goujine" package="0805" value="1µ/16V" x="86.6775" y="44.2912" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.121925" y="48.1012" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="85.5663" y="41.671925" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="86.6775" y="44.2912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="85.5662" y="42.0687" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C17" library="goujine" package="0805" value="100n/16V" x="52.2287" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.736825" y="60.086825" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="49.291825" y="58.023175" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="52.2287" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="50.0062" y="59.5313" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -3463,92 +3436,92 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="50.00625" y="53.34005" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C21" library="goujine" package="0805" value="330n/50V" x="45.5613" y="58.5788" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.7838" y="58.4201" size="0.8128" layer="25"/>
+<attribute name="NAME" x="44.9263" y="59.53135" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="80-C0805C334K5RECTU" x="45.5613" y="58.5788" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="43.3388" y="59.6901" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C28" library="goujine" package="0805" value="100n/35V" x="48.1012" y="48.73625" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.2287" y="49.133075" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="49.0538" y="49.609425" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="48.1012" y="48.73625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="45.8787" y="49.84755" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="D4" library="neumluc" package="DO214AA-CGRB307-G" value="CGRB307-G" x="47.7838" y="53.6575" smashed="yes" rot="R270">
-<attribute name="NAME" x="45.56855" y="55.18625" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="49.06105" y="57.72625" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_MOUSER" value="750-CGRB307-G" x="47.7838" y="53.6575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="45.0778" y="56.2975" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="IC5" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" package3d_urn="urn:adsk.eagle:package:16417/1" value="7815TV" x="46.355" y="53.6575" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.399575" y="56.99125" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="41.843325" y="56.99125" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_MOUSER" value="511-L7815CV-DG" x="46.355" y="53.6575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.735" y="58.7375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R17" library="neumluc" package="C0805K" value="2k2 5% 1/8W" x="44.13245" y="48.73625" smashed="yes">
-<attribute name="NAME" x="43.13245" y="49.61125" size="0.8128" layer="25"/>
+<attribute name="NAME" x="39.7987" y="48.5" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="652-CR0805JW-222ELF" x="44.13245" y="48.73625" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.13245" y="46.51875" size="1.27" layer="27"/>
 </element>
 <element name="IC3" library="neumluc" package="SC-70-6" value="DAC8311" x="75.4063" y="55.56255" smashed="yes">
-<attribute name="NAME" x="74.469675" y="55.05455" size="0.8128" layer="25"/>
+<attribute name="NAME" x="75.263425" y="52.19705" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="595-DAC8311IDCKR" x="75.4063" y="55.56255" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="73.3743" y="53.40355" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="IC12" library="neumluc" package="MSOP8-0.65-3X3MM" value="REF5040" x="60.325" y="54.9275" smashed="yes">
-<attribute name="NAME" x="59.53125" y="50.8" size="0.8128" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="54.9275" y="54.45125" size="0.8128" layer="25" ratio="11"/>
 <attribute name="OC_MOUSER" value="595-REF5040AIDGKR" x="60.325" y="54.9275" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="59.055" y="52.3875" size="0.889" layer="27" ratio="11"/>
 </element>
 <element name="C7" library="goujine" package="0805" value="100n/16V" x="77.78755" y="56.0388" smashed="yes" rot="R270">
-<attribute name="NAME" x="78.169425" y="52.6988" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="77.1463" y="57.879325" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="77.78755" y="56.0388" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="76.13755" y="56.8388" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C8" library="goujine" package="1206" value="10µ/16V" x="79.8513" y="55.24505" smashed="yes">
-<attribute name="NAME" x="79.613125" y="52.625675" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="79.136825" y="57.864375" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="963-TMK316AB7106KL-T" x="79.8513" y="55.24505" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="82.0738" y="54.13375" size="1.016" layer="27"/>
 </element>
 <element name="IC7" library="neumluc" package="SC-70-6" value="DAC8311" x="72.39" y="55.56255" smashed="yes">
-<attribute name="NAME" x="71.453375" y="55.133925" size="0.8128" layer="25"/>
+<attribute name="NAME" x="71.612125" y="53.228925" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="595-DAC8311IDCKR" x="72.39" y="55.56255" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="70.358" y="53.40355" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C9" library="goujine" package="0805" value="100n/16V" x="69.3738" y="56.19745" smashed="yes" rot="R180">
-<attribute name="NAME" x="67.713175" y="56.49995" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="70.253175" y="57.9287" size="0.8128" layer="25" rot="R180"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="69.3738" y="56.19745" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="70.1738" y="57.84745" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C34" library="goujine" package="1206" value="10µ/16V" x="70.0088" y="51.7525" smashed="yes">
-<attribute name="NAME" x="68.396975" y="53.205625" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="68.079475" y="52.570625" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="963-TMK316AB7106KL-T" x="70.0088" y="51.7525" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="72.2313" y="50.6412" size="1.016" layer="27"/>
 </element>
 <element name="C36" library="goujine" package="0805" value="1µ/16V" x="62.5475" y="51.5938" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.50005" y="52.5463" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="62.23005" y="48.7363" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="62.5475" y="51.5938" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="61.4362" y="49.3713" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C37" library="goujine" package="0805" value="1µ/35V" x="58.5787" y="51.5937" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.3651" y="48.31495" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="58.3651" y="48.7912" size="0.6096" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="58.5787" y="51.5937" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.69" y="53.8162" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C40" library="goujine" package="0805" value="100n/35V" x="60.4838" y="51.5938" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.16635" y="48.5288" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="60.0076" y="48.68755" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="60.4838" y="51.5938" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="61.5951" y="53.8163" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C41" library="goujine" package="0805" value="1µ/16V" x="64.4525" y="52.2288" smashed="yes" rot="R270">
-<attribute name="NAME" x="65.5638" y="53.02255" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="65.40505" y="51.2763" size="0.8128" layer="25" rot="R270"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="64.4525" y="52.2288" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="63.3412" y="50.0063" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C45" library="goujine" package="0805" value="1µ/16V" x="66.5162" y="55.7213" smashed="yes" rot="R270">
-<attribute name="NAME" x="65.56365" y="54.848175" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="67.9449" y="57.388175" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="66.5162" y="55.7213" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="65.4049" y="53.4988" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="R19" library="neumluc" package="C0805K" value="1.27R 1% 1/10W" x="64.4525" y="55.7213" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.68875" y="57.499425" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="66.1175" y="51.784425" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="71-CRCW08051R27FKEA" x="64.4525" y="55.7213" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="66.67" y="54.7213" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3558,7 +3531,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.29245" y="50.32375" size="0.8128" layer="27"/>
 </element>
 <element name="C35" library="goujine" package="0805" value="1µ/35V" x="52.06995" y="48.7363" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.43495" y="46.83135" size="0.8128" layer="25"/>
+<attribute name="NAME" x="53.8162" y="48.2601" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="52.06995" y="48.7363" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="49.84745" y="49.8476" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -3568,12 +3541,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.45625" y="52.53875" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IC9" library="neumluc" package="SOT23-5" value="NCP718BSN330T1G" x="83.9787" y="44.92625" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.51865" y="44.211875" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="83.105625" y="42.2276" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="863-NCP718BSN330T1G" x="83.9787" y="44.92625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="82.0737" y="46.35505" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="C32" library="goujine" package="0805" value="1µ/35V" x="81.28" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.18495" y="44.7675" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="80.32745" y="44.7675" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="963-UMK212B7105KG-T" x="81.28" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="82.3913" y="47.9425" size="1.016" layer="27" rot="R90"/>
 </element>
@@ -3583,7 +3556,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="115.173075" y="11.033125" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C44" library="goujine" package="C+/3.5/8" value="100µ/50V" x="44.45" y="10.63625" smashed="yes" rot="R45">
-<attribute name="NAME" x="39.7354" y="8.054459375" size="0.8128" layer="25" rot="R315"/>
+<attribute name="NAME" x="40.364290625" y="12.90665" size="0.8128" layer="25" rot="R45"/>
 <attribute name="OC_MOUSER" value="667-EEU-FR1H101" x="44.45" y="10.63625" size="0.6096" layer="27" rot="R45" display="off"/>
 <attribute name="VALUE" x="48.60333125" y="13.21810625" size="1.016" layer="27" rot="R45"/>
 </element>
@@ -3603,46 +3576,74 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="50.68875" y="73.3375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T1" library="neumluc" package="SOT23" value="PMV130ENEAR" x="121.205625" y="23.098125" smashed="yes">
-<attribute name="NAME" x="122.8725" y="22.780675" size="0.8128" layer="25"/>
+<attribute name="NAME" x="119.6975" y="25.320675" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="771-PMV130ENEAR" x="121.205625" y="23.098125" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="123.110625" y="21.986825" size="1.016" layer="27"/>
 </element>
-<element name="C25" library="goujine" package="0805" value="100n/35V" x="83.34375" y="50.64125" rot="R180">
-<attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="83.34375" y="50.64125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C25" library="goujine" package="0805" value="100n/35V" x="83.34375" y="50.00625" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.2325" y="48.26005" size="0.8128" layer="25"/>
+<attribute name="OC_MOUSER" value="810-C2012X7R2A104K" x="83.34375" y="50.00625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="81.12125" y="51.11755" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="IC14" library="neumluc" package="SO14" value="QUAD-OPVOPA4197" x="66.9925" y="64.4525" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.0875" y="69.37375" size="0.8128" layer="25" ratio="20"/>
+<attribute name="OC_MOUSER" value="595-OPA4197IDR" x="66.9925" y="64.4525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="66.9925" y="59.3725" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="IC2" library="goujine" package="SOP8" value="" x="87.15375" y="54.2925" rot="R90"/>
-<element name="R1" library="neumluc" package="C0805K" value="12k 0.5% 50 ppm 1/10W" x="97.155" y="49.8475" rot="R90">
+<element name="IC2" library="goujine" package="SOP8" value="OPA2197" x="87.15375" y="54.2925" smashed="yes" rot="R90">
+<attribute name="NAME" x="83.34375" y="50.9588" size="0.8128" layer="25"/>
+<attribute name="OC_MOUSER" value="595-OPA2197IDR" x="87.15375" y="54.2925" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="88.26505" y="57.4675" size="1.016" layer="27" rot="R90"/>
+</element>
+<element name="R1" library="neumluc" package="C0805K" value="12k 0.5% 50 ppm 1/10W" x="97.155" y="49.8475" smashed="yes" rot="R90">
+<attribute name="NAME" x="98.97875" y="48.8475" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="754-RR1220P-123D" x="97.155" y="49.8475" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="99.3725" y="48.8475" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R12" library="neumluc" package="C0805K" value="221R 0.5% 50ppm 1/10W" x="100.17125" y="51.27625">
+<element name="R12" library="neumluc" package="C0805K" value="221R 0.5% 50ppm 1/10W" x="100.17125" y="51.27625" smashed="yes">
+<attribute name="NAME" x="102.98125" y="50.405" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="754-RR1220P-2210D-M" x="100.17125" y="51.27625" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="99.17125" y="49.05875" size="1.27" layer="27"/>
 </element>
-<element name="T4" library="neumluc" package="SOT23" value="PMV130ENEAR" x="94.9325" y="53.975">
+<element name="T4" library="neumluc" package="SOT23" value="PMV130ENEAR" x="94.9325" y="53.975" smashed="yes">
+<attribute name="NAME" x="96.67875" y="51.75255" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="771-PMV130ENEAR" x="94.9325" y="53.975" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="96.8375" y="52.8637" size="1.016" layer="27"/>
 </element>
-<element name="R13" library="neumluc" package="C0805K" value="1k 0.5% 50 ppm 1/10W" x="97.94875" y="54.2925" rot="R270">
+<element name="R13" library="neumluc" package="C0805K" value="1k 0.5% 50 ppm 1/10W" x="97.94875" y="54.2925" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.79" y="55.96125" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="754-RR1220P-102D" x="97.94875" y="54.2925" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="95.73125" y="55.2925" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R14" library="neumluc" package="C0805K" value="10R 0.5% 50 ppm 1/4W" x="100.17125" y="54.2925" rot="R90">
+<element name="R14" library="neumluc" package="C0805K" value="10R 0.5% 50 ppm 1/4W" x="100.17125" y="54.2925" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.07625" y="52.6275" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="660-SG73G2ATTD10R0D" x="100.17125" y="54.2925" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="102.38875" y="53.2925" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C26" library="goujine" package="0805" value="1n/50V" x="92.075" y="53.6575" rot="R90">
+<element name="C26" library="goujine" package="0805" value="1n/50V" x="92.075" y="53.6575" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.1225" y="55.4038" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="603-CC805KRX7R0BB102" x="92.075" y="53.6575" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="93.1863" y="55.88" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="SINK" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="92.3925" y="59.055" rot="R135"/>
+<element name="SINK" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="92.3925" y="59.055" smashed="yes" rot="R135">
+<attribute name="NAME" x="93.239015625" y="56.045134375" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="92.123090625" y="62.916509375" size="1.27" layer="27" ratio="10" rot="R225"/>
+</element>
 <element name="KK2" library="heatsink" package="D01S" value="D01S" x="46.51375" y="53.7125" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.7825" y="49.42625" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="42.06875" y="45.82375" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="532-576802B00" x="46.51375" y="53.7125" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="46.51375" y="62.6025" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="SV1" library="neumluc" package="JST-PH-2.0-2P" value="" x="102.5525" y="46.19625" rot="R90"/>
-<element name="SV2" library="neumluc" package="JST-PH-2.0-2P" value="" x="98.425" y="75.2475" rot="R270"/>
+<element name="NTC_ADC" library="neumluc" package="JST-PH-2.0-2P" value="" x="102.5525" y="46.19625" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.09275" y="42.38625" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="107.53725" y="42.38625" size="0.8128" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="NTC" library="neumluc" package="JST-PH-2.0-2P" value="" x="98.425" y="75.2475" smashed="yes" rot="R270">
+<attribute name="NAME" x="94.9325" y="70.38975" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="93.44025" y="79.0575" size="0.8128" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="ESP/BTNS" library="neumluc" package="JST-PH-2.0-8P" value="" x="113.18875" y="30.00375" smashed="yes" rot="R90">
-<attribute name="NAME" x="117.729" y="16.35125" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="108.68025" y="20.32" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="118.1735" y="18.57375" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="BTN" library="neumluc" package="JST-PH-2.0-2P" value="" x="71.59625" y="43.65625" smashed="yes" rot="R180">
@@ -3655,7 +3656,15 @@ design rules under a new name.</description>
 </element>
 <element name="FAN" library="neumluc" package="JST-PH-2.0-4P" value="" x="110.64875" y="15.5575"/>
 <element name="DSPLY" library="neumluc" package="JST-PH-2.0-7P" value="" x="89.535" y="16.98625"/>
-<element name="SV5" library="neumluc" package="JST-PH-2.0-5P" value="" x="63.97625" y="20.16125"/>
+<element name="LED" library="neumluc" package="JST-PH-2.0-5P" value="" x="63.97625" y="20.16125" smashed="yes">
+<attribute name="NAME" x="72.48525" y="20.32" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="56.35625" y="15.1765" size="0.8128" layer="27" ratio="10"/>
+</element>
+<element name="R15" library="neumluc" package="C0805K" value="1k5 5% 1/8W" x="82.07375" y="53.975" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.07375" y="51.3575" size="0.8128" layer="25"/>
+<attribute name="OC_MOUSER" value="660-RN732ATTD1012B25" x="82.07375" y="53.975" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="79.85625" y="54.975" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="VSS">
@@ -3855,11 +3864,10 @@ design rules under a new name.</description>
 <wire x1="73.81875" y1="61.11875" x2="73.81875" y2="60.27755" width="0.2032" layer="1"/>
 <wire x1="73.9775" y1="61.2775" x2="81.28" y2="61.2775" width="0.2032" layer="1"/>
 <wire x1="81.28" y1="61.2775" x2="81.43875" y2="61.11875" width="0.4064" layer="1"/>
-<wire x1="81.43875" y1="60.16625" x2="81.75625" y2="59.84875" width="0.4064" layer="1"/>
-<wire x1="81.43875" y1="61.11875" x2="81.43875" y2="60.16625" width="0.4064" layer="1"/>
-<wire x1="81.75625" y1="59.84875" x2="81.645" y2="59.89625" width="0.3048" layer="1"/>
-<wire x1="81.75625" y1="59.84875" x2="86.31255" y2="59.84875" width="0.4064" layer="1"/>
-<wire x1="86.31255" y1="59.84875" x2="86.36005" y2="59.89625" width="0.4064" layer="1"/>
+<wire x1="81.43875" y1="59.84875" x2="81.75625" y2="59.53125" width="0.4064" layer="1"/>
+<wire x1="81.43875" y1="61.11875" x2="81.43875" y2="59.84875" width="0.4064" layer="1"/>
+<wire x1="81.75625" y1="59.53125" x2="86.31255" y2="59.53125" width="0.4064" layer="1"/>
+<wire x1="86.31255" y1="59.53125" x2="86.36005" y2="59.89625" width="0.4064" layer="1"/>
 <wire x1="86.36005" y1="59.89625" x2="86.36005" y2="61.1188" width="0.8128" layer="1"/>
 <wire x1="90.655" y1="65.41375" x2="90.655" y2="65.66875" width="0.8128" layer="1"/>
 <wire x1="86.36005" y1="61.1188" x2="90.655" y2="65.41375" width="0.8128" layer="1"/>
@@ -4018,9 +4026,9 @@ design rules under a new name.</description>
 <wire x1="101.17125" y1="51.27625" x2="102.5525" y2="51.27625" width="0.8128" layer="1"/>
 <via x="86.6775" y="46.51375" extent="1-16" drill="0.35"/>
 <wire x1="86.6775" y1="45.2437" x2="86.6775" y2="46.51375" width="0.8128" layer="1"/>
-<via x="84.1375" y="47.625" extent="1-16" drill="0.35"/>
+<via x="84.29625" y="47.78375" extent="1-16" drill="0.35"/>
 <wire x1="83.9787" y1="46.19625" x2="83.9787" y2="47.4662" width="0.6096" layer="1"/>
-<wire x1="83.9787" y1="47.4662" x2="84.1375" y2="47.625" width="0.6096" layer="1"/>
+<wire x1="83.9787" y1="47.4662" x2="84.29625" y2="47.78375" width="0.6096" layer="1"/>
 <via x="81.43875" y="43.33875" extent="1-16" drill="0.35"/>
 <wire x1="81.28" y1="44.7675" x2="81.43875" y2="44.60875" width="0.8128" layer="1"/>
 <wire x1="81.43875" y1="44.60875" x2="81.43875" y2="43.33875" width="0.8128" layer="1"/>
@@ -4049,10 +4057,10 @@ design rules under a new name.</description>
 <vertex x="107.15625" y="51.91125"/>
 </polygon>
 <via x="79.85125" y="52.22875" extent="1-16" drill="0.35"/>
-<via x="80.9625" y="50.64125" extent="1-16" drill="0.35"/>
+<via x="81.12125" y="50.00625" extent="1-16" drill="0.35"/>
 <wire x1="79.85125" y1="52.22875" x2="79.8513" y2="52.2288" width="0.8128" layer="1"/>
 <wire x1="79.8513" y1="52.2288" x2="79.8513" y2="53.65755" width="0.8128" layer="1"/>
-<wire x1="80.9625" y1="50.64125" x2="82.39125" y2="50.64125" width="0.8128" layer="1"/>
+<wire x1="81.12125" y1="50.00625" x2="82.39125" y2="50.00625" width="0.8128" layer="1"/>
 <via x="77.7875" y="53.81625" extent="1-16" drill="0.35"/>
 <via x="82.55" y="56.515" extent="1-16" drill="0.35"/>
 <wire x1="77.7875" y1="53.81625" x2="77.78755" y2="53.8163" width="0.8128" layer="1"/>
@@ -4189,9 +4197,9 @@ design rules under a new name.</description>
 <contactref element="C47" pad="1"/>
 <contactref element="R37" pad="2"/>
 <contactref element="IC19" pad="6"/>
-<wire x1="91.64625" y1="47.9425" x2="93.345" y2="47.9425" width="0.8128" layer="1"/>
-<wire x1="94.37005" y1="46.085" x2="93.41755" y2="47.86995" width="0.3048" layer="1"/>
-<wire x1="93.41755" y1="47.86995" x2="93.345" y2="47.9425" width="0.3048" layer="1"/>
+<wire x1="91.96375" y1="47.9425" x2="93.345" y2="47.9425" width="0.8128" layer="1"/>
+<wire x1="94.37005" y1="46.085" x2="94.37005" y2="47.86995" width="0.3048" layer="1"/>
+<wire x1="94.37005" y1="47.86995" x2="93.345" y2="47.9425" width="0.3048" layer="1"/>
 <wire x1="94.7738" y1="47.9425" x2="94.93255" y2="48.10125" width="0.8128" layer="1"/>
 <wire x1="93.345" y1="47.9425" x2="94.7738" y2="47.9425" width="0.8128" layer="1"/>
 </signal>
@@ -4215,7 +4223,6 @@ design rules under a new name.</description>
 <wire x1="98.2771625" y1="22.9528375" x2="105.6725" y2="15.5575" width="0.4064" layer="1"/>
 </signal>
 <signal name="+15V">
-<contactref element="T2" pad="C"/>
 <contactref element="C28" pad="1"/>
 <contactref element="D4" pad="A"/>
 <contactref element="IC5" pad="3"/>
@@ -4248,12 +4255,9 @@ design rules under a new name.</description>
 <wire x1="84.9312" y1="45.40245" x2="84.9312" y2="46.19625" width="0.4064" layer="1"/>
 <wire x1="83.0262" y1="45.40255" x2="83.34375" y2="45.085" width="0.4064" layer="1"/>
 <wire x1="83.34375" y1="45.085" x2="84.61375" y2="45.085" width="0.4064" layer="1"/>
-<wire x1="84.9312" y1="46.19625" x2="84.9312" y2="46.8312" width="0.6096" layer="1"/>
-<wire x1="86.20125" y1="48.10125" x2="86.83625" y2="48.10125" width="0.6096" layer="1"/>
-<wire x1="84.9312" y1="46.8312" x2="86.20125" y2="48.10125" width="0.6096" layer="1"/>
 <wire x1="83.0262" y1="46.19625" x2="83.0262" y2="46.6725" width="0.6096" layer="1"/>
 <wire x1="83.0262" y1="46.6725" x2="83.0262" y2="48.25995" width="0.6096" layer="1"/>
-<wire x1="84.29625" y1="49.53" x2="84.29625" y2="50.64125" width="0.6096" layer="1"/>
+<wire x1="84.29625" y1="49.53" x2="84.29625" y2="50.00625" width="0.6096" layer="1"/>
 <wire x1="83.0262" y1="48.25995" x2="84.29625" y2="49.53" width="0.6096" layer="1"/>
 <wire x1="56.67375" y1="49.2125" x2="57.785" y2="48.10125" width="0.6096" layer="1"/>
 <wire x1="57.785" y1="48.10125" x2="72.86625" y2="48.10125" width="0.6096" layer="1"/>
@@ -4261,7 +4265,7 @@ design rules under a new name.</description>
 <wire x1="72.86625" y1="48.10125" x2="77.1525" y2="48.10125" width="0.6096" layer="16"/>
 <via x="77.1525" y="48.10125" extent="1-16" drill="0.35"/>
 <contactref element="IC2" pad="8"/>
-<wire x1="84.29625" y1="50.64125" x2="84.29625" y2="52.3875" width="0.6096" layer="1"/>
+<wire x1="84.29625" y1="50.00625" x2="84.29625" y2="52.3875" width="0.6096" layer="1"/>
 <wire x1="79.85125" y1="48.10125" x2="81.28" y2="46.6725" width="0.6096" layer="1"/>
 <wire x1="77.1525" y1="48.10125" x2="79.85125" y2="48.10125" width="0.6096" layer="1"/>
 <wire x1="81.28" y1="46.6725" x2="83.0262" y2="46.6725" width="0.6096" layer="1"/>
@@ -4385,12 +4389,6 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="T3" pad="1"/>
 <contactref element="T5" pad="B"/>
-<wire x1="73.4465" y1="89.33775" x2="76.05" y2="91.94125" width="0.4064" layer="16"/>
-<via x="76.05" y="91.94125" extent="1-16" drill="0.35"/>
-<wire x1="73.4465" y1="76.38375" x2="73.4465" y2="89.33775" width="0.4064" layer="16"/>
-<contactref element="SJ1" pad="1"/>
-<wire x1="76.05" y1="91.94125" x2="77.875" y2="93.76625" width="0.4064" layer="1"/>
-<wire x1="77.875" y1="93.76625" x2="96.40175" y2="93.76625" width="0.4064" layer="1"/>
 <wire x1="79.375" y1="68.73875" x2="79.375" y2="66.5163" width="1.27" layer="1"/>
 <wire x1="73.4465" y1="74.03225" x2="76.04125" y2="71.4375" width="1.27" layer="1"/>
 <wire x1="73.4465" y1="74.03225" x2="73.4465" y2="76.38375" width="1.27" layer="1"/>
@@ -4487,26 +4485,26 @@ design rules under a new name.</description>
 <wire x1="52.49875" y1="69.05625" x2="52.49875" y2="66.88125" width="0.8128" layer="1"/>
 <wire x1="52.49875" y1="66.88125" x2="52.54625" y2="66.83375" width="0.8128" layer="1"/>
 </signal>
-<signal name="BTN_I_DOWN">
+<signal name="BTN1">
 <contactref element="U$33" pad="17/A3"/>
 <contactref element="BTN" pad="2"/>
 <wire x1="70.3371625" y1="39.553746875" x2="70.3371625" y2="43.6453375" width="1.27" layer="1"/>
 <wire x1="70.3371625" y1="43.6453375" x2="70.32625" y2="43.65625" width="1.27" layer="1"/>
 </signal>
-<signal name="BTN_I_UP">
+<signal name="BTN2">
 <contactref element="U$33" pad="16/A2"/>
 <contactref element="BTN" pad="1"/>
 <wire x1="72.8771625" y1="39.553746875" x2="72.86625" y2="39.564659375" width="1.27" layer="1"/>
 <wire x1="72.86625" y1="39.564659375" x2="72.86625" y2="43.65625" width="1.27" layer="1"/>
 </signal>
-<signal name="BTN_V_UP">
+<signal name="BTN4">
 <contactref element="U$33" pad="34/A15"/>
 <contactref element="ESP/BTNS" pad="7"/>
 <wire x1="103.3571625" y1="39.553746875" x2="103.3571625" y2="37.9303375" width="0.6096" layer="1"/>
 <wire x1="104.93375" y1="36.35375" x2="113.18875" y2="36.35375" width="0.6096" layer="1"/>
 <wire x1="103.3571625" y1="37.9303375" x2="104.93375" y2="36.35375" width="0.6096" layer="1"/>
 </signal>
-<signal name="BTN_V_DOWN">
+<signal name="BTN3">
 <contactref element="ESP/BTNS" pad="8"/>
 <contactref element="U$33" pad="33/A14"/>
 <wire x1="105.8971625" y1="39.553746875" x2="106.557159375" y2="38.89375" width="0.6096" layer="1"/>
@@ -4606,12 +4604,6 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="T7" pad="1"/>
 <contactref element="T6" pad="B"/>
-<contactref element="SJ1" pad="2"/>
-<wire x1="110.9115" y1="90.011" x2="109.69625" y2="91.22625" width="0.4064" layer="16"/>
-<via x="109.69625" y="91.22625" extent="1-16" drill="0.35"/>
-<wire x1="109.69625" y1="91.22625" x2="107.15625" y2="93.76625" width="0.4064" layer="1"/>
-<wire x1="107.15625" y1="93.76625" x2="97.92575" y2="93.76625" width="0.4064" layer="1"/>
-<wire x1="110.9115" y1="76.38375" x2="110.9115" y2="90.011" width="0.4064" layer="16"/>
 <wire x1="106.76" y1="71.05625" x2="109.449375" y2="71.05625" width="1.27" layer="1"/>
 <wire x1="110.9115" y1="72.518375" x2="110.9115" y2="76.38375" width="1.27" layer="1"/>
 <wire x1="109.449375" y1="71.05625" x2="110.9115" y2="72.518375" width="1.27" layer="1"/>
@@ -4728,7 +4720,7 @@ design rules under a new name.</description>
 <wire x1="53.66625" y1="25.50375" x2="56.126875" y2="25.50375" width="0.2032" layer="1"/>
 <wire x1="52.7484125" y1="29.948746875" x2="52.475625" y2="29.675959375" width="0.2032" layer="1"/>
 <wire x1="52.475625" y1="29.675959375" x2="52.475625" y2="26.694375" width="0.2032" layer="1"/>
-<contactref element="SV5" pad="1"/>
+<contactref element="LED" pad="1"/>
 <wire x1="56.365" y1="22.96375" x2="56.365" y2="22.6925" width="0.4064" layer="16"/>
 <wire x1="56.365" y1="22.6925" x2="58.89625" y2="20.16125" width="0.4064" layer="16"/>
 </signal>
@@ -4740,7 +4732,7 @@ design rules under a new name.</description>
 <wire x1="60.175" y1="29.680290625" x2="60.175" y2="26.694375" width="0.2032" layer="1"/>
 <wire x1="60.175" y1="26.694375" x2="61.365625" y2="25.50375" width="0.2032" layer="1"/>
 <wire x1="61.365625" y1="25.50375" x2="61.445" y2="25.50375" width="0.2032" layer="1"/>
-<contactref element="SV5" pad="2"/>
+<contactref element="LED" pad="2"/>
 <wire x1="61.445" y1="22.96375" x2="61.445" y2="20.17" width="0.4064" layer="16"/>
 <wire x1="61.445" y1="20.17" x2="61.43625" y2="20.16125" width="0.4064" layer="16"/>
 </signal>
@@ -4962,10 +4954,10 @@ design rules under a new name.</description>
 <contactref element="R35" pad="1"/>
 <contactref element="R37" pad="1"/>
 <contactref element="T2" pad="E"/>
-<wire x1="89.64625" y1="50.00625" x2="89.64625" y2="49.37125" width="0.8128" layer="1"/>
-<wire x1="89.64625" y1="49.37125" x2="89.64625" y2="47.9425" width="0.8128" layer="1"/>
+<wire x1="89.64625" y1="50.00625" x2="89.96375" y2="49.37125" width="0.8128" layer="1"/>
+<wire x1="89.96375" y1="49.37125" x2="89.96375" y2="47.9425" width="0.8128" layer="1"/>
 <wire x1="85.88375" y1="49.68875" x2="86.20125" y2="49.37125" width="0.4064" layer="1"/>
-<wire x1="86.20125" y1="49.37125" x2="89.64625" y2="49.37125" width="0.4064" layer="1"/>
+<wire x1="86.20125" y1="49.37125" x2="89.96375" y2="49.37125" width="0.4064" layer="1"/>
 <wire x1="85.88375" y1="50.64125" x2="85.88375" y2="49.68875" width="0.4064" layer="1"/>
 <contactref element="IC2" pad="6"/>
 <wire x1="85.88375" y1="50.64125" x2="85.88375" y2="54.2925" width="0.6096" layer="1"/>
@@ -5044,7 +5036,7 @@ design rules under a new name.</description>
 <wire x1="65.255" y1="26.853125" x2="63.985" y2="25.583125" width="0.2032" layer="1"/>
 <wire x1="63.6675" y1="29.551875" x2="63.6675" y2="32.965" width="0.2032" layer="1"/>
 <wire x1="63.6675" y1="29.551875" x2="65.255" y2="27.964375" width="0.2032" layer="1"/>
-<contactref element="SV5" pad="3"/>
+<contactref element="LED" pad="3"/>
 <wire x1="63.985" y1="25.583125" x2="63.985" y2="22.96375" width="0.2032" layer="1"/>
 <wire x1="63.985" y1="22.96375" x2="63.985" y2="20.17" width="0.4064" layer="1"/>
 <wire x1="63.985" y1="20.17" x2="63.97625" y2="20.16125" width="0.4064" layer="1"/>
@@ -5053,7 +5045,7 @@ design rules under a new name.</description>
 <contactref element="T13" pad="3"/>
 <wire x1="67.16" y1="32.965" x2="67.16" y2="25.6625" width="0.2032" layer="1"/>
 <wire x1="67.16" y1="25.6625" x2="66.525" y2="25.0275" width="0.2032" layer="1"/>
-<contactref element="SV5" pad="4"/>
+<contactref element="LED" pad="4"/>
 <wire x1="66.525" y1="25.0275" x2="66.525" y2="22.96375" width="0.2032" layer="1"/>
 <wire x1="66.525" y1="22.96375" x2="66.525" y2="20.17" width="0.4064" layer="1"/>
 <wire x1="66.525" y1="20.17" x2="66.51625" y2="20.16125" width="0.4064" layer="1"/>
@@ -5062,7 +5054,7 @@ design rules under a new name.</description>
 <contactref element="T14" pad="3"/>
 <wire x1="70.6525" y1="32.965" x2="70.6525" y2="26.694375" width="0.2032" layer="1"/>
 <wire x1="70.6525" y1="26.694375" x2="69.065" y2="25.106875" width="0.2032" layer="1"/>
-<contactref element="SV5" pad="5"/>
+<contactref element="LED" pad="5"/>
 <wire x1="69.065" y1="25.106875" x2="69.065" y2="22.96375" width="0.2032" layer="1"/>
 <wire x1="69.065" y1="22.96375" x2="69.065" y2="20.17" width="0.4064" layer="1"/>
 <wire x1="69.065" y1="20.17" x2="69.05625" y2="20.16125" width="0.4064" layer="1"/>
@@ -5510,13 +5502,19 @@ design rules under a new name.</description>
 <wire x1="88.7412" y1="45.29125" x2="88.78875" y2="45.5612" width="0.8128" layer="1"/>
 <wire x1="88.78875" y1="45.5612" x2="90.805" y2="45.5612" width="0.8128" layer="1"/>
 <contactref element="R1" pad="1"/>
-<contactref element="SV1" pad="2"/>
+<contactref element="NTC_ADC" pad="2"/>
 <wire x1="97.155" y1="48.8475" x2="101.17125" y2="48.8475" width="0.8128" layer="1"/>
 <wire x1="101.17125" y1="48.8475" x2="102.5525" y2="47.46625" width="0.8128" layer="1"/>
 <wire x1="94.37005" y1="45.085" x2="96.2025" y2="45.085" width="0.3048" layer="1"/>
 <wire x1="96.2025" y1="45.085" x2="96.52" y2="45.085" width="0.4064" layer="1"/>
 <wire x1="96.52" y1="45.085" x2="97.155" y2="45.72" width="0.4064" layer="1"/>
 <wire x1="97.155" y1="45.72" x2="97.155" y2="48.8475" width="0.4064" layer="1"/>
+<contactref element="T2" pad="C"/>
+<wire x1="86.83625" y1="48.10125" x2="86.995" y2="48.10125" width="0.6096" layer="1"/>
+<wire x1="88.42375" y1="46.6725" x2="88.42375" y2="45.87875" width="0.6096" layer="1"/>
+<wire x1="88.42375" y1="45.87875" x2="88.7412" y2="45.5613" width="0.6096" layer="1"/>
+<wire x1="88.7412" y1="45.5613" x2="88.7412" y2="45.29125" width="0.8128" layer="1"/>
+<wire x1="86.995" y1="48.10125" x2="88.42375" y2="46.6725" width="0.6096" layer="1"/>
 </signal>
 <signal name="VDAC_CS">
 <contactref element="IC3" pad="1"/>
@@ -5643,24 +5641,26 @@ design rules under a new name.</description>
 <contactref element="C49" pad="2"/>
 <wire x1="103.0375" y1="77.01875" x2="103.0375" y2="74.47875" width="0.8128" layer="1"/>
 <wire x1="103.0375" y1="74.47875" x2="102.72" y2="74.16125" width="0.8128" layer="1"/>
-<contactref element="SV2" pad="1"/>
-<wire x1="102.7125" y1="72.1525" x2="102.7125" y2="74.15375" width="0.8128" layer="1"/>
+<contactref element="NTC" pad="1"/>
 <wire x1="102.7125" y1="74.15375" x2="102.72" y2="74.16125" width="0.8128" layer="1"/>
 <wire x1="103.0375" y1="77.01875" x2="98.92625" y2="77.01875" width="0.8128" layer="1"/>
 <wire x1="98.92625" y1="77.01875" x2="98.425" y2="76.5175" width="0.8128" layer="1"/>
+<wire x1="102.79" y1="72.2325" x2="102.79" y2="74.07625" width="1.27" layer="1"/>
+<wire x1="102.79" y1="74.07625" x2="102.7125" y2="74.15375" width="1.27" layer="1"/>
 </signal>
 <signal name="TH0_ADC">
 <contactref element="IC19" pad="4"/>
 <wire x1="98.67005" y1="45.585" x2="100.67125" y2="45.585" width="0.3048" layer="1"/>
-<contactref element="SV1" pad="1"/>
+<contactref element="NTC_ADC" pad="1"/>
 <wire x1="100.67125" y1="45.585" x2="101.33" y2="44.92625" width="0.3048" layer="1"/>
 <wire x1="101.33" y1="44.92625" x2="102.5525" y2="44.92625" width="0.3048" layer="1"/>
 </signal>
 <signal name="3.3V_TH">
 <contactref element="R42" pad="1"/>
-<contactref element="SV2" pad="2"/>
-<wire x1="98.425" y1="73.9775" x2="98.8875" y2="73.9775" width="0.8128" layer="1"/>
-<wire x1="98.8875" y1="73.9775" x2="100.7125" y2="72.1525" width="0.8128" layer="1"/>
+<contactref element="NTC" pad="2"/>
+<wire x1="98.425" y1="73.9775" x2="98.425" y2="73.81875" width="0.8128" layer="1"/>
+<wire x1="102.01125" y1="70.2325" x2="102.79" y2="70.2325" width="0.8128" layer="1"/>
+<wire x1="98.425" y1="73.81875" x2="102.01125" y2="70.2325" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R1" pad="2"/>
@@ -5704,17 +5704,6 @@ design rules under a new name.</description>
 <wire x1="91.7575" y1="52.3875" x2="92.075" y2="52.705" width="0.4064" layer="1"/>
 <wire x1="92.075" y1="52.705" x2="93.98" y2="52.705" width="0.8128" layer="1"/>
 </signal>
-<signal name="N$19">
-<contactref element="IC2" pad="7"/>
-<contactref element="T2" pad="B"/>
-<via x="86.995" y="53.6575" extent="1-16" drill="0.35"/>
-<wire x1="86.995" y1="53.6575" x2="82.70875" y2="53.6575" width="0.6096" layer="16"/>
-<via x="82.70875" y="53.6575" extent="1-16" drill="0.35"/>
-<wire x1="82.70875" y1="53.6575" x2="84.29625" y2="53.6575" width="0.6096" layer="1"/>
-<wire x1="86.995" y1="53.6575" x2="87.47125" y2="53.18125" width="0.6096" layer="1"/>
-<wire x1="87.47125" y1="51.1175" x2="87.78875" y2="50.64125" width="0.6096" layer="1"/>
-<wire x1="87.47125" y1="53.18125" x2="87.47125" y2="51.1175" width="0.6096" layer="1"/>
-</signal>
 <signal name="N$34">
 <contactref element="SINK" pad="2"/>
 <contactref element="T4" pad="3"/>
@@ -5729,6 +5718,21 @@ design rules under a new name.</description>
 <wire x1="124.023434375" y1="24.368125" x2="124.113471875" y2="24.4581625" width="0.8128" layer="1"/>
 <wire x1="124.113471875" y1="24.4581625" x2="124.113471875" y2="24.79006875" width="0.8128" layer="1"/>
 <wire x1="124.113471875" y1="24.79006875" x2="120.36875625" y2="28.534784375" width="1.27" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="IC2" pad="7"/>
+<contactref element="R15" pad="2"/>
+<wire x1="82.07375" y1="52.975" x2="82.5975" y2="53.49875" width="0.4064" layer="1"/>
+<wire x1="84.1375" y1="53.49875" x2="84.29625" y2="53.6575" width="0.4064" layer="1"/>
+<wire x1="82.5975" y1="53.49875" x2="84.1375" y2="53.49875" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="R15" pad="1"/>
+<contactref element="T2" pad="B"/>
+<wire x1="82.07375" y1="54.975" x2="82.66125" y2="55.5625" width="0.2032" layer="1"/>
+<wire x1="86.0425" y1="55.5625" x2="87.78875" y2="53.81625" width="0.4064" layer="1"/>
+<wire x1="87.78875" y1="53.81625" x2="87.78875" y2="50.64125" width="0.4064" layer="1"/>
+<wire x1="82.66125" y1="55.5625" x2="86.0425" y2="55.5625" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <errors>
