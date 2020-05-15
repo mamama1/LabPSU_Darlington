@@ -2,6 +2,9 @@
 
 Welcome to my Lab PSU project, which is based on a pair of BD139/TIP3055 Darlingtons and the Teensy 3.5 (3.6 should work as well).<br><br>
 
+This project has been heavily inspired by the original µSupply project by Dave Jones from the EEVBlog.<br>
+Link: https://www.eevblog.com/projects/usupply/ <br><br>
+
 Specs:<br>
 0 - 16.384V output controllable in 1mV steps<br>
 0 - 4096 mA output controllable in 1mA steps<br>
